@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-COPY target/blog-demo.jar /app/
+COPY target/*.jar /app/
 EXPOSE 8080
-CMD java -jar /app/blog-demo.jar 
+CMD java -jar /app/*.jar 
