@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
-EXPOSE 8070
+EXPOSE 8080
 
-COPY target/shopping-cart.jar /app/
+COPY target/blog-demo.jar /app/
 
-CMD java -jar /app/shopping-cart.jar 
+CMD java -jar /app/blog-demo.jar 
